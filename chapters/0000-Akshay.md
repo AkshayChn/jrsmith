@@ -60,7 +60,7 @@ This is India's top research institute. Worked on Game Theory and Reinforcement 
 
 ## Natural Language Processing: Controlling false-positives
 
-Read [paper here.](../nlp.pdf)
+Read [paper here.](./../nlp.pdf)
 
 Github [Repo here.](https://github.com/AkshayChn/cs521)
 
