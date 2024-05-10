@@ -2,10 +2,10 @@
 
 # Akshay for Jay R. Smith
 
-1. I've worked at prestegious places.
-2. I've worked with top engineering and research teams.
-3. I love to work with people.
-4. I aim for imapct.
+1. I aim for imapct. 
+2. I love to work with people. 
+3. I've worked with top engineering and research teams.
+4. I've worked at prestegious places.
 
 ## Here I present my case in four parts:
 
@@ -19,7 +19,7 @@
 ## This very page
 
 1. This page is based on my pandoc HTML theme. 100% custom HTML-CSS.
-2. This page uses no Javascript for reflow and responsive design. It's all pure CSS.
+2. Reflow and sidebar animations are 100% CSS, no JavaScript.
 3. Try the dark mode!
 4. Check out my theme code on my [Github Repo](https://github.com/AkshayChn/pandoc-html-theme).
 
@@ -44,7 +44,7 @@ Built an interpreter using object oriented programming, especially the Command P
 
 ## Work at Indian Space Research Organization
 
-Built a test automation system for a satellite module. Read my [report here](./../Akshay_Report.pdf)
+Built a test automation system for a satellite module. Read my [report here](./images/Akshay_Report.pdf)
 
 # My focus on Research
 
@@ -60,7 +60,7 @@ This is India's top research institute. Worked on Game Theory and Reinforcement 
 
 ## Natural Language Processing: Controlling false-positives
 
-Read [paper here.](./../nlp.pdf)
+Read [paper here.](./images/nlp.pdf)
 
 Github [Repo here.](https://github.com/AkshayChn/cs521)
 
