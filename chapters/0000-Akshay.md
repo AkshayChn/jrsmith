@@ -25,15 +25,14 @@
 
 ## Augmented reality Android App
 
+You can [read more here](https://akych.com/cs428/). GiHub [repo here](https://github.com/AkshayChn/cs428-project-1).
+
 ![](https://akych.com/cs428/images/blank-vr.png)
 
-You can [read more here](https://akych.com/cs428/).
-
-GiHub [repo here](https://github.com/AkshayChn/cs428-project-1).
 
 ## I love typography.
 
-You can see my contributions to [programmingfonts.org](programmingfonts.org) in their issues. I've suggested the latest fonts for addtion. Check their [Github Issues here.](https://github.com/braver/programmingfonts/issues?q=is%3Aissue+is%3Aclosed)
+You can see my contributions to [programmingfonts.org](programmingfonts.org) on their issues page. I have suggested the latest newly released fonts for their catelogue. Check their [Github Issues here.](https://github.com/braver/programmingfonts/issues?q=is%3Aissue+is%3Aclosed)
 
 ![](./images/prog.png)
 
@@ -41,12 +40,11 @@ You can see my contributions to [programmingfonts.org](programmingfonts.org) in 
 
 ## Assembly interpreter in C++
 
-
 Built an interpreter using object oriented programming, especially the Command Pattern. Github [Repo here](https://github.com/AkshayChn/assembly-language-interpreter)
 
 ## Work at Indian Space Research Organization
 
-Built a test automation system for a sattelite module. Read my [report here](../Akshay_Report.pdf)
+Built a test automation system for a satellite module. Read my [report here](./../Akshay_Report.pdf)
 
 # My focus on Research
 
