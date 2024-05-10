@@ -32,7 +32,7 @@ You can [read more here](https://akych.com/cs428/). GiHub [repo here](https://gi
 
 ## I love typography.
 
-You can see my contributions to [programmingfonts.org](programmingfonts.org) on their issues page. I have suggested the latest newly released fonts for their catelogue. Check their [Github Issues here.](https://github.com/braver/programmingfonts/issues?q=is%3Aissue+is%3Aclosed)
+You can see my contributions to [programmingfonts.org](https://programmingfonts.org) on their issues page. I have suggested the latest newly released fonts for their catelogue. Check their [Github Issues here.](https://github.com/braver/programmingfonts/issues?q=is%3Aissue+is%3Aclosed)
 
 ![](./images/prog.png)
 
