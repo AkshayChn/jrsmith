@@ -1,0 +1,113 @@
+/*
+    Inner Body Element Styles
+*/
+
+pre {
+  padding: 10px;
+  background: var(--color-pre-bg, #f0f0f0);
+  font-family: var(--font-code, monospace);
+  color: var(--color-pre-text, #222222);
+  -moz-tab-size: 4;
+  tab-size: 4;
+  overflow: auto;
+  /*border: 1px solid #dddddd;*/
+  border-radius: 3px;
+  white-space: pre-wrap;
+}
+pre > code{
+  font-family: var(--font-code, monospace);
+}
+
+:not(pre) > code,
+:not(pre) > kbd,
+:not(pre) > samp {
+  /*font-size: 14px;*/
+  font-family: var(--font-code, monospace);
+  color: var(--color-code-text, #8c4a03);
+  white-space: normal;
+  padding: 0 4px;
+  /*border: 1px solid #dddddd;*/
+  border-radius: 3px;
+  background: var(--color-code-bg, #f0f0f0);
+}
+div.sourceCode {
+    background: none;
+}
+
+/*HEADINGS*/
+h1 {
+    font-size: 2.64em;
+    margin-bottom: 18px;
+    margin-top: 1em;
+}
+
+h2 {
+    font-size: 1.62em;
+    margin-bottom: 18px;
+}
+
+h3 {
+    font-size: 1.2em;
+    margin-bottom: 18px;
+    font-weight: normal;
+}
+
+h4 {
+    font-size: 1em;
+    margin-bottom: 18px;
+    font-weight: normal;
+}
+
+p, ul, ol, dl, table, pre {
+    margin-bottom: 1em;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 1em;
+    /*padding-left: 1em;*/
+}
+
+ul li {
+    padding-left: 0em;
+    
+}
+
+ol {
+    list-style: decimal;
+    margin-left: 1em;
+}
+
+ol li {
+    padding-left: 0em;
+}
+
+/* CUSTOM DIVS */
+.note {
+  margin-bottom: 10px;
+  padding: .05rem 1.25rem;
+  /*background: #ebf7fd;*/
+  color: var(--color-note-text ,#0E79B2);
+  overflow: auto;
+  border-left: 0.4rem solid var(--color-note-text ,#0E79B2);
+  /*border-radius: 3px;*/
+}
+.bad {
+  margin-bottom: 10px;
+  padding: .05rem 1.25rem;
+  /*background: #fff1f0;*/
+  color: var(--color-bad-text ,#A31621);
+  overflow: auto;
+  border-left: 0.4rem solid var(--color-bad-text ,#A31621);
+  /*border-radius: 3px;*/
+}
+.good {
+  margin-bottom: 10px;
+  padding: .05rem 1.25rem;
+  /*background: #f2fae3;*/
+  color: var(--color-good-text ,#42b983);
+  overflow: auto;
+  border-left: 0.4rem solid var(--color-good-text ,#42b983);
+  /*border-radius: 3px;*/
+}
+

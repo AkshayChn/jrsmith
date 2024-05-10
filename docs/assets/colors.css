@@ -1,0 +1,41 @@
+.theme-light-1 {
+    --color-bg: white;
+    --color-text: rgb(34, 34, 34);
+    --sidebar-border: 1px solid #eaecef;
+    --sidebar-background: inherit;
+    --color-check-button: #aaa;
+    --font-main: 'IBM Plex Sans';
+    --font-code: 'IBM Plex Mono';
+    
+    /*PRE*/
+    --color-pre-bg: #f0f0f0;
+    --color-pre-text: #222222;
+    /*CODE*/
+    --color-code-bg: #f0f0f0;
+    --color-code-text: #8c4a03;
+    /*Custom Divs*/
+    --color-note-text: #2B79E3;
+    --color-good-text: #0BA464;
+    --color-bad-text: #E93C3C;
+}
+
+.theme-dark-1 {
+    --color-bg: #121212;
+    --color-text: #eee;
+    --sidebar-border: none;
+    --sidebar-background: #181818;
+    --color-check-button: #333;
+    --font-main: 'IBM Plex Sans';
+    --font-code: 'IBM Plex Mono';
+    
+    /*PRE*/
+    --color-pre-bg: #222;
+    --color-pre-text: #ddd;
+    /*CODE*/
+    --color-code-bg: #222;
+    --color-code-text: #FDC95F;
+    /*Custom Divs*/
+    --color-note-text: #76B6F6;
+    --color-good-text: #23D98D;
+    --color-bad-text: #FA5D48;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" $if(lang)$ lang="$lang$" $endif$ dir="ltr">
+<!-- if(land) isn't really necessary -->
+<head>
+<meta charset="utf-8">
+
+<!-- may require user-scalable=no, see older template-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- PANDOC VARIABLES; picked from older template -->
+<title>$if(title)$$title$$endif$</title>
+<meta name="generator" content="pandoc" />
+
+$for(author-meta)$
+<meta name="author" content="$author-meta$" />
+$endfor$
+
+$if(date-meta)$
+<meta name="date" content="$date-meta$" />
+$endif$
+
+<title>$if(title-prefix)$$title-prefix$ - $endif$$pagetitle$</title>
+<style type="text/css">code{white-space: pre;}</style>
+
+$if(quotes)$
+<style type="text/css">q { quotes: "“" "”" "‘" "’"; }</style>
+$endif$
+
+$if(highlighting-css)$
+<style type="text/css">
+$highlighting-css$
+</style>
+$endif$
+        
+$if(math)$
+$math$
+$endif$
+
+$for(header-includes)$
+$header-includes$
+$endfor$ 
+
+<!-- CSS files -->
+<link rel="stylesheet" href="./assets/overlay.css">
+<link rel="stylesheet" href="./assets/colors.css">
+<link rel="stylesheet" href="./assets/sidebar.css">
+<link rel="stylesheet" href="./assets/screensize.css">
+<link rel="stylesheet" href="./assets/spacing_and_styling.css">
+
+</head>
+  
+<!-- BODY BEGINS HERE-->
+<body class="theme-light-1" id="bodyId">
+<!-- OVERLAY BEFORE PAGE LOADS-->
+<div id="overlay">
+<div class="loader"></div>
+</div>
+
+<!-- SIDEBAR BUTTON -->
+<input type="checkbox" id="check">
+<label for="check">
+<span id="btn">▶</span>
+<span id="cancel">✖</span>
+</label>
+
+<!-- SIDEBAR -->    
+<div class="sidebar">
+<header>
+$if(title)$
+<h2 id="title">$title$</h2>
+$endif$
+$for(author)$
+<h3>$author$</h3>
+$endfor$
+$if(date)$
+<h5>$date$</p></h5>
+$endif$
+<!-- Dark Theme Selector Checkbox -->
+<input type="checkbox" id="themeToggle" name="themeToggleCheckbox">
+<label for="themeToggle">
+<span id="themeToggleButton">Dark Mode</span>
+</label>
+
+</header>
+
+<div id="sidebarTOC">
+$if(toc)$
+$toc$
+$endif$
+</div>
+
+</div>
+
+<!-- MAIN BODY CONTENT -->
+<main onclick="bodyClick()">
+<div id="mainContent">
+$if(body)$
+$body$
+$endif$
+</div>
+</main>
+
+<script src="./assets/scripts.js"></script> 
+</body>
+</html>
