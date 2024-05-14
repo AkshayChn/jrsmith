@@ -38,6 +38,17 @@ You can see my contributions to [programmingfonts.org](https://programmingfonts.
 
 # My focus on Engineering
 
+## JayBot virtual assistant for Jay R. Smith
+
+- Blazing fast virtual assistant using Generative AI and Retrieval Augmented Generation (RAG).
+- Uses Vue and LLama 3.
+- Model hosted by Groq.
+- Deployed on Vercel
+
+[Deployed Here](https://jaybot.vercel.app/)
+
+[Code Here](https://github.com/AkshayChn/jaybot)
+
 ## Assembly interpreter in C++
 
 Built an interpreter using object oriented programming, especially the Command Pattern. Github [Repo here](https://github.com/AkshayChn/assembly-language-interpreter)
