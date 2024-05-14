@@ -2,10 +2,10 @@
 
 # Akshay for Jay R. Smith
 
-1. I aim for imapct. 
+1. I aim for impact. 
 2. I love to work with people. 
 3. I've worked with top engineering and research teams.
-4. I've worked at prestegious places.
+4. I've worked at prestigious places.
 
 ## Here I present my case in four parts:
 
@@ -44,7 +44,7 @@ Built an interpreter using object oriented programming, especially the Command P
 
 ## Work at Indian Space Research Organization
 
-Built a test automation system for a satellite module. Read my [report here](./images/Akshay_Report.pdf)
+Built a test automation system for a satellite module. Read my [report here](./images/Akshay_Report.pdf).
 
 # My focus on Research
 
